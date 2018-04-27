@@ -28,5 +28,4 @@ function tickets(peopleInLine) {
   return "YES"
 }
 
-console.log(tickets([25, 25, 50, 50]) === "YES" ? "PASSED" : "FAILED")
-console.log(tickets([25, 100]) === "NO" ? "PASSED" : "FAILED")
+module.exports = tickets
